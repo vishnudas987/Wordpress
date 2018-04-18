@@ -1,0 +1,44 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.navbar-style {
+
+}
+.navbar-style ul {
+	list-style: none;
+	color: #ffffff;
+}
+.navbar-style ul li {
+	display: inline-block;
+}
+.home-section {
+	height: 580px;
+	background-image: url(../assets/background.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.home-section .title {
+	font-size: 70px;
+	text-align: center;
+	margin-top: 200px;
+	color: #e49322;
+	font-family: monospace;
+}
+.insta-section .title {
+	text-align: center;
+	font-size: 60px;
+	font-family: monospace;
+	letter-spacing: 10px;
+	margin: 25px 0px;
+}
+.insta-section #instafeed {
+	height: 260px;
+	overflow-y: scroll;
+}
+.insta-section #instafeed a img {
+	margin: 30px;
+	padding: 25px;
+    border: 1px solid #000;
+}
